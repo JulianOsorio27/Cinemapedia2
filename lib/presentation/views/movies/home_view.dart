@@ -46,6 +46,7 @@ class HomeViewState extends ConsumerState<HomeView> {
           floating: true,
           flexibleSpace: FlexibleSpaceBar(
             title: CustomAppbar(),
+            titlePadding: EdgeInsets.zero,
           ),
         ),
 
